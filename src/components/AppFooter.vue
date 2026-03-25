@@ -1,9 +1,9 @@
 <template>
-  <footer class="bg-slate-800/50 border-t border-slate-700/50 mt-auto">
+  <footer class="bg-white border-t border-slate-200 mt-auto">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-        <div class="flex items-center gap-2 text-slate-400">
-          <CodeBracketIcon class="w-5 h-5 text-primary-500" />
+        <div class="flex items-center gap-2 text-slate-600">
+          <img src="/logo.png" alt="Logo" class="w-8 h-8 rounded-full" />
           <span class="text-sm font-medium">Casquejo Jun Gil M.</span>
         </div>
         <div class="flex items-center gap-6">
@@ -11,7 +11,7 @@
             href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-slate-400 hover:text-primary-400 transition-colors"
+            class="text-slate-400 hover:text-primary-500 transition-colors"
             aria-label="GitHub"
           >
             <span class="sr-only">GitHub</span>
@@ -22,12 +22,11 @@
         </div>
       </div>
       <p class="mt-4 text-center md:text-left text-slate-500 text-sm">
-        © {{ new Date().getFullYear() }} Jun Gil M. Casquejo. Lapu-Lapu City, Cebu, Philippines.
+        © {{ new Date().getFullYear() }} Jun Gil M. Casquejo.Cordova, Cebu, Philippines.
       </p>
     </div>
   </footer>
 </template>
 
 <script setup>
-import { CodeBracketIcon } from '@heroicons/vue/24/outline'
 </script>

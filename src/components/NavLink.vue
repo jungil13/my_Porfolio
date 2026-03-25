@@ -1,8 +1,8 @@
 <template>
   <router-link
     :to="to"
-    class="px-4 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/80 transition-all duration-200 font-medium"
-    active-class="!text-primary-400 !bg-slate-800/80"
+    class="px-4 py-2 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium"
+    active-class="!text-primary-600 !bg-slate-100"
     @click="$emit('click')"
   >
     {{ label }}
