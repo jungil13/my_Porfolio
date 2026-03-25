@@ -7,12 +7,7 @@ const routes = [
     component: () => import('../views/Home.vue'),
     meta: { title: 'Home | Jun Gil Casquejo' }
   },
-  {
-    path: '/resume',
-    name: 'Resume',
-    component: () => import('../views/Resume.vue'),
-    meta: { title: 'Resume | Jun Gil Casquejo' }
-  },
+
   {
     path: '/about',
     name: 'About',
